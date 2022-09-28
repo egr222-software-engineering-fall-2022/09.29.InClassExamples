@@ -11,10 +11,13 @@
 	Brad (ID#456) worked 36.8 hours (7.36 hours/day)
 	Jenn (ID#789) worked 39.5 hours (7.90 hours/day)
  */
-import java.io.*;
-import java.util.*;
 
-public class HoursWorked {
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Scanner;
+
+public class HoursWorked_v1 {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner input = new Scanner(new File("hours.txt"));
 
