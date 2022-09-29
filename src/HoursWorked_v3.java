@@ -23,6 +23,7 @@ import java.util.Scanner;
 public class HoursWorked_v3 {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner input = new Scanner(new File("hours.txt"));
+        //PrintStream out = System.out;
         PrintStream out = new PrintStream(new File("hours_out.txt"));
         while (input.hasNextLine()) {
             String line = input.nextLine();
